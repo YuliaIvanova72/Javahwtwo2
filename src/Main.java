@@ -8,14 +8,14 @@ public class Main {
 
         int bonusRubles;
         if (depositAmount >= 1000) {
-                    bonusRubles = (depositAmount / 100);
-                } else {
+            bonusRubles = (depositAmount / 100);
+        } else {
             bonusRubles = 0;
         }
         int grandTotal = (customerAccount + depositAmount + bonusRubles);
 
-                    System.out.println("Счёт: " + grandTotal);
-                    System.out.println("Бонусные рубли: " + bonusRubles);
+        System.out.println("Счёт: " + grandTotal);
+        System.out.println("Бонусные рубли: " + bonusRubles);
 
     }
 }
